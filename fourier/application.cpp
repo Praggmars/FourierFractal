@@ -85,7 +85,6 @@ namespace fourier
 		gtk_paned_set_position(GTK_PANED(container), 300);
 
 		GeneratePath();
-		SaveToWav();
 
 		gtk_window_present(GTK_WINDOW(window));
 	}
